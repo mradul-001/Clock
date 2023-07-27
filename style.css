@@ -1,0 +1,176 @@
+body {
+    /* padding:50px; */
+    background-image: url("https://dubaimonsters.com/wp-content/uploads/2018/04/High-Resolution-Background-Images.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    margin: 0;
+}
+
+
+#wrapper_analog {
+    
+    height: 100vh;
+    width: 100%;
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#wrapper_analog nav {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#wrapper_analog nav h2 {
+    font-family: cursive;
+    padding-left: 20px;
+    font-size: xx-larger;
+}
+
+#switch1 {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: large;
+}
+
+#switch1:hover {
+    color: rgb(145, 142, 142);
+}
+
+#clk {
+    height: 70vh;
+    width: 70vh;
+    position: absolute;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+#hour {
+    height: 20vh;
+    width: 6px;
+    position: absolute;
+    left: 49.5%;
+    top: 42.5%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+#minute {
+    position: absolute;
+    left: 49.5%;
+    top: 40.3%;
+    height: 25vh;
+    width: 3px;
+    transform: translate(-50%, -50%);
+
+}
+
+#second {
+    position: absolute;
+    left: 50%;
+    top: 40.5%;
+    height: 25vh;
+    width: 1px;
+    transform: translate(-50%, -50%);
+
+}
+
+#circle {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+@media (width<600px) {
+    body {
+        opacity: 0;
+        border: 1px solid black;
+    }
+}
+
+
+#wrapper_digital{
+    height: 100vh;
+    width: 100%;
+    display: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#wrapper_digital nav {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#wrapper_digital nav h2 {
+    font-family: cursive;
+    padding-left: 20px;
+    font-size: xx-larger;
+}
+
+#switch2 {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: large;
+}
+
+#switch2:hover {
+    color: rgb(145, 142, 142);
+}
+
+.box {
+    height: 25vw;
+    width:58vw;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 251, 251);
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(5px);
+}
+
+/* .box:hover{
+    background-color: rgb(156, 155, 155);
+} */
+
+#tme_area{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    justify-self: center;
+    padding: 1px 48px 10px 48px ;
+    box-sizing: border-box;
+    color: rgb(196, 196, 196);
+}
+
+
+
+
+/* https://images.freecreatives.com/wp-content/uploads/2015/05/18.jpg
